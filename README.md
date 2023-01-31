@@ -21,7 +21,9 @@ npm i -g @nestjs/cli
 docket-compose up -d
 ```
 
-5, Reconstruir la base de datos con la semilla
+5. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+6. Reconstruir la base de datos con la semilla
 ```
 http://localhost:3000/api/v2/seed
 ```
